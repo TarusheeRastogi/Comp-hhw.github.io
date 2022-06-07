@@ -1,0 +1,303 @@
+* {margin: 0;
+    padding: 0;
+    font-family: none;
+    }
+
+     .banner{
+        height: 60vh;
+        width: 100%;
+        background-image: linear-gradient(rgba(0,0,0,0.7) , rgba(0,0,0,0.7)), url(3rd\ page\ coding\ pic\ number\ 1.jpg);
+    }
+    .nav-links{
+        width: 93%;
+        margin: auto;
+        padding: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: right;
+    }
+    .nav-links ul li{
+        list-style: none;
+        display: inline-block;
+        text-transform: uppercase;
+        position: relative;
+    }
+    .nav-links ul li a{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        margin: 0 20px;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .nav-links ul li ::after{
+        content: '';
+        height: 2px;
+        width: 0%;
+        background: #04b5cc;
+        display: block;
+        margin: auto;
+        position: absolute;
+        left: auto;
+        bottom: -10px;
+        transition: 0.3s;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .nav-links ul li :hover::after{
+        width: 100%;
+        
+    }
+    .header h1{
+        height: 40vh;
+        width: 100%;
+        margin: 100px;
+        margin-top: 7%;
+        margin-left: -0.5%;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 220%;
+        text-transform: uppercase;
+        text-decoration: underline;
+        font-style: italic;
+     }   
+
+     .para{
+        width: 100% 100%;
+        margin: -9.5%;
+        padding: 10%;
+     }
+     .para-col p{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-transform: uppercase;
+        font-weight: 1000;
+        font-size: 100%;
+    }
+
+
+    .top5{
+        width: 100% 100%;
+        margin: -9.5%;
+        padding: 10%;
+    }
+    .top5 h1{
+        font-size: 220%;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .top5-col p{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 50%;
+    }
+
+
+    .countriesuwisheduknewbefore{
+        width: 80%;
+        margin: auto;
+        padding-top: 80px;
+        padding-bottom: 50px;
+    }
+    .srilanka-col{
+        flex-basis: 120%;
+        padding: 30px 2px;
+    }
+    .srilanka-col img{
+        width: 50%;
+        margin: -5%;
+        margin-left: 55%;
+        margin-top: -100%;
+    }
+    .container {
+        position: relative; 
+        width: 700px;
+        margin: -270px;
+        padding: 70px;
+        align-items: left;
+        display: flex;
+        justify-content: center;
+        margin-top: -5%; 
+        background: #d9ddd9; 
+        min-height: 200px;
+        opacity: 100%;
+    }
+    .srilanka-col h1{
+        margin: 185%;
+        padding: 0;
+        margin-top: -40%;
+        white-space: nowrap;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-transform: uppercase;
+    }
+    .srilanka-col p{
+        margin: -40%;
+        padding: 0;
+        top: 40%;
+    }
+    .countriesuwisheduknewbefore1{
+        width: 80%;
+        margin: auto;
+        padding-top: 80px;
+        padding-bottom: 50px;
+    }
+    .germany-col{
+        flex-basis: 145%;
+        padding: 30px 2px;
+    }
+    .germany-col img{
+        width: 50%;
+        margin: -5%;
+        margin-left: 55%;
+        margin-top: -100%;
+    }
+    .container1 {
+        position: relative; 
+        width: 700px;
+        margin: -270px;
+        padding: 70px;
+        align-items: left;
+        display: flex;
+        justify-content: center;
+        margin-top: 10%; 
+        background: #d9ddd9; 
+        min-height: 200px;
+        opacity: 100%;
+    }
+    .germany-col h1{
+        margin: 180%;
+        padding: 0;
+        margin-top: -40%;
+        white-space: nowrap;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-transform: uppercase;
+    }
+    .germany-col p{
+        margin: -40%;
+        padding: 0;
+        top: 40%;
+    }
+    .countriesuwisheduknewbefore2{
+        width: 80%;
+        margin: auto;
+        padding-top: 80px;
+        padding-bottom: 50px;
+    }
+    .zimbabwe-col{
+        flex-basis: 150%;
+        padding: 30px 2px;
+    }
+    .zimbabwe-col img{
+        width: 50%;
+        margin: -5%;
+        margin-left: 55%;
+        margin-top: -100%;
+    }
+    .container2 {
+        position: relative; 
+        width: 700px;
+        margin: -270px;
+        padding: 70px;
+        align-items: left;
+        display: flex;
+        justify-content: center;
+        margin-top: 10%; 
+        background: #d9ddd9; 
+        min-height: 200px;
+        opacity: 100%;
+    }
+    .zimbabwe-col h1{
+        margin: 185%;
+        padding: 0;
+        margin-top: -45%;
+        white-space: nowrap;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-transform: uppercase;
+    }
+    .zimbabwe-col p{
+        margin: -40%;
+        padding: 0;
+        top: 40%;
+    }
+    .countriesuwisheduknewbefore3{
+        width: 80%;
+        margin: auto;
+        padding-top: 80px;
+        padding-bottom: 50px;
+    }
+    .india-col{
+        flex-basis: 160%;
+        padding: 30px 2px;
+    }
+    .india-col img{
+        width: 50%;
+        margin: -5%;
+        margin-left: 55%;
+        margin-top: -100%;
+    }
+    .container3 {
+        position: relative; 
+        width: 700px;
+        margin: -270px;
+        padding: 70px;
+        align-items: right;
+        display: flex;
+        justify-content: center;
+        margin-top: 10%; 
+        background: #d9ddd9; 
+        min-height: 200px;
+        opacity: 100%;
+    }
+    .india-col h1{
+        margin: 205%;
+        padding: 0;
+        margin-top: -45%;
+        white-space: nowrap;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-transform: uppercase;
+    }
+    .india-col p{
+        margin: -40%;
+        padding: 0;
+        top: 40%;
+    }
+    
+    .countriesuwisheduknewbefore4{
+        width: 80%;
+        margin: auto;
+        padding-top: 80px;
+        padding-bottom: 50px;
+    }
+    .newzealand-col{
+        flex-basis: 48%;
+        padding: 30px 2px;
+    }
+    .newzealand-col img{
+        width: 50%;
+        margin: -5%;
+        margin-left: 55%;
+        margin-top: -100%;
+    }
+    .container4 {
+        position: relative; 
+        width: 700px;
+        margin: -270px;
+        padding: 70px;
+        align-items: left;
+        display: flex;
+        justify-content: center;
+        margin-top: 10%; 
+        background: #d9ddd9; 
+        min-height: 200px;
+        opacity: 100%;
+    }
+    .newzealand-col h1{
+        margin: 180%;
+        padding: 0;
+        margin-top: -45%;
+        white-space: nowrap;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-transform: uppercase;
+    }
+    .newzealand-col p{
+        margin: -40%;
+        padding: 0;
+        top: 40%;
+    }
